@@ -1,0 +1,8 @@
+#include <iostream>  //подключает базовую стандартную библиотеку C++ для работы с вводом и выводом данных (input-output stream).
+
+int main() {
+	setlocale(LC_ALL, "ru_RU.UTF-8"); //установка кодировки
+	std::cout << "all is okey" << std::endl; //print std::endl(переводит на новую строку)
+	std::cout << "привет";
+	return 0;
+}
