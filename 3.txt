@@ -1,0 +1,21 @@
+#include <iostream>  
+
+int main() {
+	
+	int num = 5;
+	bool cal = true;
+	if (num == 5 && cal){ // && знак and
+		std::cout << num;
+	}
+
+	if (num == 3 || cal) { // || знак or
+		std::cout << "num";
+	}
+
+	//swith case
+	int num2;
+	std::cin >> num2; //устанавливаем значение num
+	switch (num2) {
+	case 5: std::cout << "Num is 5"; break;
+	}
+}
