@@ -1,0 +1,19 @@
+#include <iostream>  
+
+int main() {
+	short num1; //от -32к до 32к 2byte
+	int num2; //от -2B до 2B 4byte
+	long num3; //8byte
+
+	unsigned short num4; //от 0 до 65к
+	unsigned int num5; //от 0 до 4B 4byte
+	unsigned long num6; //8byte
+
+	//double имеет больший диапозон
+	float fl = 5.11f;
+	double db = 100.123f;
+
+	char ch = 'c'; //char хранит один символ в одинарных ковычках
+
+	bool isHappy = true;
+}
