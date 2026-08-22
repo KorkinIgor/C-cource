@@ -1,0 +1,10 @@
+#include <iostream>  
+using namespace std;  //пространство имен
+
+int main() {
+	int num = 5;
+	num++; //добавляем единицу
+	num--; //убавляем единицу
+	num = 1 + rand() % 20; //случайное число от 1 до 20
+	cout << num; // сокращенная запись std::cout << num;
+}
