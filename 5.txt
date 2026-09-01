@@ -1,0 +1,23 @@
+#include <iostream>  
+using namespace std;  //пространство имен
+
+int main() {
+	//цикл for
+	for (int i = 0; i < 10; i++) {
+		cout << "My name Tom Perl" << i << endl;
+	}
+
+	//цикл while
+	int j = 110;
+	while (j > 100) {
+		j--;
+		cout << "while" << j << endl;
+	}
+
+	//цикл do while(цикл который обязательно сработает минимум один раз 
+	int k = 100;
+	do {
+		cout << "do while" << k << endl;
+		k -= 10;
+	} while (k < 0);
+}
